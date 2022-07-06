@@ -37,13 +37,13 @@ body {
     cursor: pointer;
   }
 
-  .advice-number {
+  #advice-number {
     color: $primaryClr2;
     letter-spacing: 4px;
     font-size: $fontSmall;
   }
 
-  .advice-quote {
+  #advice-quote {
     color: $primaryClr1;
     font-size: $fontLrg;
     text-align: center;

@@ -37,12 +37,12 @@ body {
   border: none;
   cursor: pointer;
 }
-.main-container .advice-number {
+.main-container #advice-number {
   color: hsl(150deg, 100%, 66%);
   letter-spacing: 4px;
   font-size: 12px;
 }
-.main-container .advice-quote {
+.main-container #advice-quote {
   color: hsl(193deg, 38%, 86%);
   font-size: 26px;
   text-align: center;
