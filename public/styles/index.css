@@ -10,10 +10,12 @@ html {
 
 body {
   background-color: hsl(218deg, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
 }
 
 .main-container {
-  padding: 3em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,14 +35,15 @@ body {
   border-radius: 50%;
   background-color: hsl(150deg, 100%, 66%);
   border: none;
-  position: relative;
-  top: 160px;
   cursor: pointer;
 }
 .main-container .advice-number {
   color: hsl(150deg, 100%, 66%);
-  font-family: "Manrope", sans-serif;
-  font-weight: 800;
   letter-spacing: 4px;
   font-size: 12px;
+}
+.main-container .quote {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 26px;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

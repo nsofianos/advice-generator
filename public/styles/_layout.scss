@@ -9,10 +9,12 @@ html {
 
 body {
   background-color: $neutralClr3;
+  font-family: $mainFont;
+  font-weight: 800;
 }
 
 .main-container {
-  padding: 3em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,16 +34,18 @@ body {
     border-radius: 50%;
     background-color: $primaryClr2;
     border: none;
-    position: relative;
-    top: 160px;
     cursor: pointer;
   }
 
   .advice-number {
     color: $primaryClr2;
-    font-family: $mainFont;
-    font-weight: 800;
     letter-spacing: 4px;
     font-size: $fontSmall;
+  }
+
+  .quote {
+    color: $primaryClr1;
+    font-size: $fontLrg;
+    text-align: center;
   }
 }
