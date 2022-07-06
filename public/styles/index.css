@@ -25,6 +25,8 @@ body {
   margin-top: 10em;
   border-radius: 12px;
   height: 300px;
+  position: relative;
+  box-shadow: 0px 4px 20px 10px #1d232e;
 }
 .main-container #advice-reroll {
   display: flex;
@@ -33,12 +35,14 @@ body {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background-color: hsl(150deg, 100%, 66%);
+  background-color: #5cb9e3;
   border: none;
   cursor: pointer;
+  position: absolute;
+  top: 270px;
 }
 .main-container #advice-number {
-  color: hsl(150deg, 100%, 66%);
+  color: #5cb9e3;
   letter-spacing: 4px;
   font-size: 12px;
 }
