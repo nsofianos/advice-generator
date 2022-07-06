@@ -22,18 +22,26 @@ body {
   margin-top: 10em;
   border-radius: 12px;
   height: 300px;
-}
 
-.advice-reroll {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  background-color: $primaryClr2;
-  border: none;
-  position: relative;
-  top: 160px;
-  cursor: pointer;
+  .advice-reroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: $primaryClr2;
+    border: none;
+    position: relative;
+    top: 160px;
+    cursor: pointer;
+  }
+
+  .advice-number {
+    color: $primaryClr2;
+    font-family: $mainFont;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: $fontSmall;
+  }
 }
