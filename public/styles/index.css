@@ -26,7 +26,7 @@ body {
   border-radius: 12px;
   height: 300px;
 }
-.main-container .advice-reroll {
+.main-container #advice-reroll {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,7 @@ body {
   letter-spacing: 4px;
   font-size: 12px;
 }
-.main-container .quote {
+.main-container .advice-quote {
   color: hsl(193deg, 38%, 86%);
   font-size: 26px;
   text-align: center;

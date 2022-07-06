@@ -22,8 +22,11 @@
 
     <title>Advice generator app</title>
 
-    <!-- Layout styles -->
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- App JS -->
+    <script type="text/javascript" src="/scripts/fetchQuotes.js"></script>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -42,7 +45,7 @@
     <main>
       <div class="main-container">
         <span class="advice-number">ADVICE # 117</span>
-        <p class="quote">
+        <p class="advice-quote">
           "It is easy to sit up and take notice, what's difficult is getting up
           and taking action."
         </p>
@@ -51,7 +54,7 @@
           src="./images/pattern-divider-desktop.svg"
           alt="divider"
         />
-        <button class="advice-reroll">
+        <button id="advice-reroll">
           <img class="dice" src="./images/icon-dice.svg" alt="dice" />
         </button>
       </div>
