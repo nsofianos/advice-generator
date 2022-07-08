@@ -11,6 +11,11 @@ body {
   background-color: $neutralClr3;
   font-family: $mainFont;
   font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
 }
 
 .main-container {
@@ -21,7 +26,6 @@ body {
   background-color: $neutralClr2;
   width: 500px;
   margin: auto;
-  margin-top: 10em;
   border-radius: 12px;
   height: 300px;
   position: relative;
