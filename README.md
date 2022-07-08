@@ -25,12 +25,11 @@ Users should be able to:
 ### Screenshot
 
 !["Screenshot of Desktop view"](./public/images/ss-desktop.png)
-!["Screenshot of Mobile view"](./public/images/ss-mobile.png)
 
 ### Links
 
 - Solution URL: [Frontendmentor solution](https://www.frontendmentor.io/solutions/responsive-design-using-flexbox-and-scss-OBHIZYiitk)
-- Live Site URL: [Netlify](https://ns-advice-netlify.com)
+- Live Site URL: [Netlify](https://ns-advice.netlify.com)
 
 ## My process
 
