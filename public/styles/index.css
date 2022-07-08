@@ -28,6 +28,10 @@ body {
   position: relative;
   box-shadow: 0px 4px 20px 10px #1d232e;
 }
+.main-container .divider {
+  width: 100%;
+  height: 15px;
+}
 .main-container #advice-reroll {
   display: flex;
   align-items: center;
@@ -54,4 +58,23 @@ body {
   color: hsl(193deg, 38%, 86%);
   font-size: 26px;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 0.5em;
+  }
+
+  .main-container {
+    width: 100%;
+    height: initial;
+    position: static;
+  }
+  .main-container #advice-quote {
+    font-size: 24px;
+  }
+  .main-container #advice-reroll {
+    top: 65px;
+    position: relative;
+  }
 }/*# sourceMappingURL=index.css.map */
