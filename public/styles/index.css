@@ -35,19 +35,18 @@ body {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background-color: #5cb9e3;
+  background-color: hsl(150deg, 100%, 66%);
   border: none;
   cursor: pointer;
   position: absolute;
   top: 270px;
-  box-shadow: 0px 0px 20px 2px #243e48;
   transition: box-shadow 0.6s;
 }
 .main-container #advice-reroll:hover {
-  box-shadow: 0px 0px 20px 3px #3b8eb3;
+  box-shadow: 0px 0px 20px 2px #00ff7f;
 }
 .main-container #advice-number {
-  color: #5cb9e3;
+  color: hsl(150deg, 100%, 66%);
   letter-spacing: 4px;
   font-size: 12px;
 }
